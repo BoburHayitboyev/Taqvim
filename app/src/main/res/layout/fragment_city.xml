@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginTop="3dp"
+    android:background="@drawable/backgrounds">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Quyoshning chiqish va botish vaqtidagi farqlar(daqiqa hisobida)(saharlik/iftorlik)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Toshkentdan oldin:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:text="Angren - 2/4, Bekobod - 5/0, Andijon - 10/13, Xonobod - 13/15, Shahrixon - 9/11, Pop - 6/8, Quva - 9/11, Xo'jaobod - 11/13, Namangan - 8/10, Chortoq - 9/11, Chust - 7/8, Farg'ona - 7/10, Rishton - 5/8, Qo'qon - 4/7."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Toshkentdan keyin:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:text="Buxoro - 24/19, Gazli - 27/23, G'ijduvon-22/18, Qorako'l - 27/21, Guliston - 5/2, Sardoba - 4/1, Jizzax - 9/5, Zomin - 7/3, Forish - 10/8, G'allaorol - 10/6, Navoiy - 19/15, Zarafshon - 20/21, Mingbuloq - 29/25, Konimex - 20/16, Nurota-17/14, Uchquduq-19/24, Nukus - 33/40, Mo'ynoq - 28/44, Taxtako'pir-27/38, To'rtko'l - 32/34, Qo'ng'irot - 33/44, Samarqand - 14/8, Ishtixon - 15/11, Mirbozor-13/9, Kattaqo'rg'on - 16/12, Urgut-14/8, Termiz-18/17, Boysun - 16/7, Denov-13/5, Sherobod-18/8, Sho'rchi - 14/5, Qarshi-20/13, Dehqonobod - 19/10, Koson-21/14, Muborak - 22/16, Shahrisabz - 16/9, G'uzor - 19/11"
+            />
+    </LinearLayout>
+</ScrollView>
